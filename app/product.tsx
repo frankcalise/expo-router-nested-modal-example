@@ -5,7 +5,7 @@ export default function Product() {
   return (
     <View>
       <Text>product</Text>
-      <Button title="Go to cart" onPress={() => router.navigate("/cart")} />
+      <Button title="Go to cart" onPress={() => router.navigate("/order")} />
     </View>
   );
 }
